@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML FORM GERRY</title>
+  </head>
+  <body>
+    <form action="">
+      <h1>Form HTML</h1>
+      <div style="margin-bottom: 15px">
+        <label for="nama">Nama : </label>
+        <input type="nama" />
+      </div>
+
+      <div style="margin-bottom: 15px">
+        <label>Gender:</label>
+        <input type="radio" id="men" name="gender" value="men" />
+        <label for="men">Men</label>
+        <input type="radio" id="women" name="gender" value="women" />
+        <label for="men">Women</label>
+      </div>
+
+      <div style="margin-bottom: 15px">
+        <label for="addres">Address : </label>
+        <input type="addres" />
+      </div>
+
+      <div style="margin-bottom: 15px">
+        <label for="country">Country:</label>
+        <select id="country" style="padding: 4px" name="country">
+          <option value="">-- Pilih --</option>
+          <option value="Indonesia">Indonesia</option>
+          <option value="Jepang">Jepang</option>
+          <option value="Bahrain">Bahrain</option>
+          <option value="Australia">Australia</option>
+        </select>
+      </div>
+
+      <div style="margin-bottom: 15px">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+      </div>
+
+      <!-- Button Browse -->
+      <div style="margin-bottom: 15px">
+        <label for="photo">Photo:</label>
+        <input type="text" id="fileDisplay" readonly style="padding: 3px; width: 200px" value="No file chosen" />
+        <button>Browse</button>
+      </div>
+
+      <div>
+        <label>Comment:</label>
+        <textarea name="comment" rows="4" cols="50"></textarea>
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>

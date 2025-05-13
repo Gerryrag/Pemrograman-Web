@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline JavaScript</title>
+    <style>
+      .hasil {
+        background-color: #f5f5f5;
+        padding: 15px;
+        margin-top: 20px;
+        border-radius: 5px;
+        max-width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Menghitung Volume Balok</h1>
+
+    <div class="hasil">
+      <script>
+        // Deklarasi variabel
+        const panjang = 10;
+        const lebar = 5;
+        const tinggi = 7;
+
+        // Hitung volume
+        const volume = panjang * lebar * tinggi;
+
+        // Tampilkan hasil
+        document.write(`
+                <p>Panjang balok = ${panjang}</p>
+                <p>Lebar balok = ${lebar}</p>
+                <p>Tinggi balok = ${tinggi}</p>
+                <h2 style="color: #2c3e50;">Volume balok = ${volume}</h2>
+            `);
+      </script>
+    </div>
+  </body>
+</html>

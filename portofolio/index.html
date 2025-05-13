@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogg Biodata</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Untuk ikon (opsional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="#" class="navbar-logo">GARRY</a>
+        <ul class="navbar-menu">
+          <li class="navbar-item"><a href="#hero" class="navbar-link">Home</a></li>
+          <li class="navbar-item"><a href="#about" class="navbar-link">About</a></li>
+          <li class="navbar-item"><a href="#" class="navbar-link">Services</a></li>
+          <li class="navbar-item"><a href="#portofolio" class="navbar-link">Portfolio</a></li>
+          <li class="navbar-item"><a href="#" class="navbar-link">Contact</a></li>
+        </ul>
+        <div class="navbar-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Selamat Datang di Profil Saya</h1>
+        <p class="hero-subtitle">Web Developer & Designer Kreatif</p>
+
+        <div class="hero-image-container">
+          <img src="img/gerry.jpg" alt="Profil Saya" class="hero-image" />
+        </div>
+
+        <div class="hero-cta">
+          <a href="https://wa.me/6281949469476" class="cta-button">Hubungi Saya</a>
+          <a href="#portofolio" class="cta-button secondary">Portfolio</a>
+        </div>
+      </div>
+    </section>
+    <section class="biodata" id="about">
+      <div class="container">
+        <h2 class="section-title">Biodata Diri</h2>
+
+        <div class="biodata-grid">
+          <!-- Kolom Kiri -->
+          <div class="biodata-info">
+            <div class="info-item">
+              <span class="info-label"><i class="fas fa-user"></i> Nama Lengkap</span>
+              <span class="info-value">Gerry Robbie AG</span>
+            </div>
+
+            <div class="info-item">
+              <span class="info-label"><i class="fas fa-calendar-alt"></i> Tanggal Lahir</span>
+              <span class="info-value">26 Desember 2004</span>
+            </div>
+
+            <div class="info-item">
+              <span class="info-label"><i class="fas fa-map-marker-alt"></i> Alamat</span>
+              <span class="info-value">Jl. Ronggojalu, Probolinggo</span>
+            </div>
+
+            <div class="info-item">
+              <span class="info-label"><i class="fas fa-envelope"></i> Email</span>
+              <span class="info-value">grobbie692@gmail.com</span>
+            </div>
+          </div>
+
+          <!-- Kolom Kanan -->
+          <div class="biodata-info">
+            <div class="info-item">
+              <span class="info-label"><i class="fas fa-phone"></i> Telepon</span>
+              <span class="info-value">0829 4946 9476</span>
+            </div>
+
+            <div class="info-item">
+              <span class="info-label"><i class="fas fa-graduation-cap"></i> Pendidikan</span>
+              <span class="info-value">S1 Sistem Informasi</span>
+            </div>
+
+            <div class="info-item">
+              <span class="info-label"><i class="fas fa-briefcase"></i> Pekerjaan</span>
+              <span class="info-value">Web Developer</span>
+            </div>
+
+            <div class="info-item">
+              <span class="info-label"><i class="fas fa-heart"></i> Hobi</span>
+              <span class="info-value">Makan, Tidur, Traveling</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio" id="portofolio">
+      <div class="container">
+        <h2 class="section-title">Portofolio Saya</h2>
+        <p class="section-subtitle">Kumpulan project dan karya terbaru saya</p>
+
+        <div class="blog-grid">
+          <!-- Blog Item 1 -->
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="img/tired.png" alt="Project 1" />
+              <span class="blog-category">Design</span>
+            </div>
+            <div class="blog-content">
+              <h3 class="blog-title">Belajar Photoshop</h3>
+              <div class="blog-meta">
+                <span><i class="far fa-calendar"></i> 15 Jan 2023</span>
+                <span><i class="far fa-clock"></i> 2 min read</span>
+              </div>
+              <p class="blog-excerpt">Belajar membuat banner Poster.</p>
+              <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Blog Item 2 -->
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="img/tired.png" alt="Project 2" />
+              <span class="blog-category">UI/UX Design</span>
+            </div>
+            <div class="blog-content">
+              <h3 class="blog-title">Redesign Aplikasi Mobile</h3>
+              <div class="blog-meta">
+                <span><i class="far fa-calendar"></i> 5 Mar 2023</span>
+                <span><i class="far fa-clock"></i> 3 min read</span>
+              </div>
+              <p class="blog-excerpt">Mendesain ulang antarmuka aplikasi mobile untuk meningkatkan user experience.</p>
+              <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Blog Item 3 -->
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="img/tired.png" alt="Project 3" />
+              <span class="blog-category">Branding</span>
+            </div>
+            <div class="blog-content">
+              <h3 class="blog-title">Desain Logo Perusahaan</h3>
+              <div class="blog-meta">
+                <span><i class="far fa-calendar"></i> 22 Apr 2023</span>
+                <span><i class="far fa-clock"></i> 4 min read</span>
+              </div>
+              <p class="blog-excerpt">Membuat identitas visual untuk perusahaan startup teknologi.</p>
+              <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <div class="portfolio-cta">
+          <a href="#" class="cta-button">Lihat Semua Portofolio</a>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
